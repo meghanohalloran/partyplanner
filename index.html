@@ -1,12 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <html>
-  <head>
-    <title>Document</title>
-     <script src="index.js" defer></script>
+
+<head>
+  <title>Party Planner Website Using Async/Await</title>
+  <script src="./index.js" defer></script>
 </head>
 
 <header> </header>
+
 <body>
-  <h1>party-planner</h1>
-  
+  <div class="container">
+    <h1>Party Tracker</h1>
+    <ul id="party-list">
+      <!--Party list items will populate here -->
+    </ul>
+    <h2> Add a New Party</h2>
+    <form id="party-form">
+      <input id="name" type="text" placeholder="Party Event Name" required>
+      <input id="date" type="date" required>
+      <input id="time" type="time" required>
+      <input id="location" type="location" placeholder="Party Location" required>
+      <input id="description" type="description" placeholder="Party Event Description" required>
+      <button type="submit">Add Party to List</button>
+
+    </form>
+  </div>
+<p>
+  <ol id="Party List">
+    <li></li>
+  </ol>
+</p>
 </body>
+
 </html>
+
+
+
